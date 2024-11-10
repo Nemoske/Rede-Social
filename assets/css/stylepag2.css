@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #0C9463;
+ }
+
+.titulo{
+    text-align: center;
+   padding-top: 15px;
+   margin: 0;  
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+ 
+}
+
+main{
+display: flex;
+justify-content: center;
+
+}
+.container{
+height: 700px;
+width: 400px;
+background-color: #2D334A;
+padding: 10px;
+margin: 10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 40px; 
+border-radius: 10px;
+box-shadow: 2px 0px 10px rgb(0, 0, 0);
+
+}
+
+.grupo, input, #bio, label{
+    width: 250px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: #000000;
+    resize: none;
+  
+}
+
+input, #bio{
+    border: solid black;
+}
+
+
+#data{
+    width: 130px;
+    color: black;
+
+}
+
+.containerBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 325px;
+    height: 50px;
+  
+}
+
+#botonenviar, #botonlimpar{
+    text-decoration: none;
+    height: 32px;
+    width: 82px;
+    border-radius: 82px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-color: aliceblue;
+    color: #000000;
+    border: none;
+    box-shadow: 3px 3px 3px  rgb(32, 31, 31);   
+}
+

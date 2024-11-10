@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*STYLE Front -1*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100vh;
+   background-color: #0C9463;
+}
+
+.titulo {
+   text-align: center;
+   padding-top: 25px;
+   margin: 0;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+
+}
+
+
+
+.loginCadastro {
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 30px;
+
+
+}
+
+.botoes {
+   display: flex;
+   gap: 25px;
+   position: relative;
+   top: -3em;
+
+}
+
+
+
+#logar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 32px;
+   width: 82px;
+   border-radius: 82px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   background-color: aliceblue;
+   text-decoration: none;
+   color: #000000;
+   border: none;
+   transition: background-color 0.3s ease-out, border 0.3s ease-out;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+#cadastro{
+   text-decoration: none;
+   height: 32px;
+   width: 82px;
+   border-radius: 82px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #000000;
+   transition: background-color 0.3s ease-out, border 0.3s ease-out;
+   border: none;
+}
+
+#logar:hover, #cadastro:hover{
+   background-color: #FFEB00;
+   border:  3px solid #181C14;
+}
+
+.sobrenos {
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 30px;
+
+}
+
+.elemento {
+   display: flex;
+   position: relative;
+   top: -4.9em;
+
+
+}
+
+#botaoSn {
+   text-decoration: none;
+   height: 32px;
+   width: 82px;
+   border-radius: 82px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   background-color: aliceblue;
+   color: #000000;
+   border: none;
+   transition: background-color 0.3s ease-out, border 0.3s ease-out;
+}
+
+#botaoSn:hover, #closer:hover{
+background-color: #FFEB00;
+border:  5px solid #181C14;
+
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.containertex {
+   background-color: aliceblue;
+   height: 145px;
+   width: 325px;
+   border-radius: 25px;
+
+}
+
+.texto1 {
+   text-align: center;
+   padding-top: 2px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+
+
+}
+
+
+
+#botaocadast {
+   height: 32px;
+   width: 82px;
+   border-radius: 82px;
+   padding: 5px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   background-color: #0C9463;
+   text-decoration: none;
+   color: #000000;
+   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+#botaocadast:hover{
+   background-color: #FFEB00;
+   border:  3px solid #181C14;
+}
+
+.finalPage {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   height: 40.5em;
+
+
+}
+
+.patrocinio {
+   height: 100px;
+   width: 110em;
+   background-color: #2D334A;
+   border-radius: 24px;
+}
+
+.patrocinio p {
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   color: aliceblue;
+
+}
+
+
+ul {
+   display: flex;
+   justify-content: center;
+   gap: 17px;
+   list-style: none;
+   align-items: center;
+   text-decoration: none;
+   color: #000000;
+}
+
+
+#links {
+   width: 32px;
+   height: 35px;
+
+}
+
+#modal {
+   height: 120px;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   background-color: #333;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   color: aliceblue;
+}
+
+
+.boton {
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+
+#closer {
+   height: 32px;
+   width: 82px;
+   border-radius: 82px;
+ 
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   background-color: aliceblue;
+   border: none;
+   color: #000000;
+   transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+/*MEDIA QUERIES
+   RESPONSAVIDADE
+*/
+
+@media screen and (max-width: 1020px) {
+   .titulo {
+      text-align: center;
+      padding-top: 60px;
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+   }
+
+   .loginCadastro {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 15px;
+
+   }
+
+   .botoes {
+
+      gap: 20px;
+      position: relative;
+      top: -8em;
+
+   }
+
+   .sobrenos {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px;
+
+   }
+
+   .elemento {
+      display: flex;
+      position: relative;
+      top: -10em;
+
+   }
+
+   .containertex {
+      background-color: aliceblue;
+      height: 145px;
+      width: 325px;
+      border-radius: 25px;
+      padding: 10px
+   }
+
+   .finalPage {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      height: 44%;
+      padding-right: 10px;
+      padding-left: 10px;
+   }
+
+   .patrocinio p {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: aliceblue;
+      padding: 5px;
+   }
+
+   #modal {
+      height: 130px;
+      border: none;
+      border-radius: 10px;
+      padding: 13px;
+      margin: 10px;
+      background-color: #333;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      color: aliceblue;
+   }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/stylepag2.css">
+    <link rel="shortcut icon" href="/assets/imgs/programacao.png" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>NetWork Code</h1>
+            <h2>A rede social do programador</h2>
+        </div>
+    </header>
+
+    <main>
+        <form class=container>
+            <fieldset class="grupo">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="sytleJs" required>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <label for="nick">Nick</label>
+                <input type="text" name="nick" id="nick" class="sytleJs" required>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <label for="data">Data de nascimento</label>
+                <input type="date" name="data" id="data" class="sytleJs" required>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <label for="profissao">Profissão</label>
+                <input type="text" name="profissao" id="profissao" class="sytleJs">
+            </fieldset>
+
+            <fieldset class="grupo">
+                <label for="escolaridade">Escolaridade</label>
+                <input type="text" name="escolaridade" id="escolaridade" class="sytleJs">
+            </fieldset>
+
+            <fieldset class="grupo">
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" rows="5" cols="25" maxlength="300" class="sytleJs"></textarea>
+            </fieldset>
+
+            <div class="containerBotoes">
+                <button id="botonenviar" type="button" onclick="cadastrar()">Enviar</button>
+                <button id="botonlimpar" type="button" onclick="limpar()">Limpar</button>
+            </div>
+
+
+        </form>
+    </main>
+
+
+    <script src="/assets/js/scriptPag2.js"></script>
+</body>
+
+</html>

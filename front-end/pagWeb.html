@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/imgs/programacao.png" type="image/x-icon">
+    <title>NetWork Code</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="titulo">
+                <h1>NetWork Code</h1>
+                <br>
+                <h2>A rede social do programador</h2>
+
+                <div class="loginCadastro">
+                    <div class="botoes">
+                        <a href="formularioDeCadastro.html">
+                            <button id="logar" >Login</button>
+                        </a>
+                        <a href="formularioDeCadastro.html">
+                            <button id="cadastro">Cadastrar</button>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="sobrenos">
+                    <div class="elemento">
+                        <button id="botaoSn" onclick="exibirModal()">Sobre nós</button>
+                    </div>
+                </div>
+
+                <dialog id="modal">
+                    <p>O Network Code é uma iniciativa promissora de grandes empresas que descidiram desenvolver<br>
+                        um ambiente online onde profissionais de Tecnologia de todas as áreas<br>
+                        possam se conectar, compartilhar conhecimentos, buscar oportunidades e fortalecer suas skils.
+                    </p>
+                    <div class="boton">
+                        <button id="closer" onclick="closeModal()">Fechar</button>
+                    </div>
+
+                </dialog>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="containertex">
+                <div class="texto1">
+                    <p>Construa um Network poderoso<br><br>Participe de processos seletivos<br><br>Entenda novas
+                        tecnologias</p>
+                    <br>
+                    <a href="formularioDeCadastro.html" id="botaocadast">Cadastrar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="finalPage">
+
+        <div class="patrocinio">
+            <p>Patrocínios</p>
+            <br>
+            <ul>
+                <li><a href="https://about.google/"><img src="/assets/imgs/google.png" alt="google" id="links"></a></li>
+                <li><a href="https://github.com/"><img src="/assets/imgs/github.png" alt="github" id="links"></a></li>
+                <li><a href="https://br.linkedin.com/"><img src="/assets/imgs/linkedin.png" alt="linkedin" id="links"></a></li>
+                <li><a href="https://bitcoin.org/en/"><img src="/assets/imgs/bitcoin.png" alt="bitcoin" id="links"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>
